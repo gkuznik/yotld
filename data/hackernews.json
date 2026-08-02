@@ -1,74 +1,850 @@
 [
   {
-    "year": 2009,
+    "date": "2009-01",
+    "mentions": 1
+  },
+  {
+    "date": "2009-02",
+    "mentions": 2
+  },
+  {
+    "date": "2009-03",
+    "mentions": 0
+  },
+  {
+    "date": "2009-04",
+    "mentions": 2
+  },
+  {
+    "date": "2009-05",
+    "mentions": 0
+  },
+  {
+    "date": "2009-06",
+    "mentions": 1
+  },
+  {
+    "date": "2009-07",
+    "mentions": 2
+  },
+  {
+    "date": "2009-08",
+    "mentions": 2
+  },
+  {
+    "date": "2009-09",
+    "mentions": 4
+  },
+  {
+    "date": "2009-10",
+    "mentions": 0
+  },
+  {
+    "date": "2009-11",
+    "mentions": 3
+  },
+  {
+    "date": "2009-12",
+    "mentions": 4
+  },
+  {
+    "date": "2010-01",
+    "mentions": 4
+  },
+  {
+    "date": "2010-02",
+    "mentions": 4
+  },
+  {
+    "date": "2010-03",
+    "mentions": 4
+  },
+  {
+    "date": "2010-04",
+    "mentions": 2
+  },
+  {
+    "date": "2010-05",
+    "mentions": 5
+  },
+  {
+    "date": "2010-06",
+    "mentions": 2
+  },
+  {
+    "date": "2010-07",
+    "mentions": 3
+  },
+  {
+    "date": "2010-08",
+    "mentions": 10
+  },
+  {
+    "date": "2010-09",
+    "mentions": 10
+  },
+  {
+    "date": "2010-10",
+    "mentions": 10
+  },
+  {
+    "date": "2010-11",
+    "mentions": 1
+  },
+  {
+    "date": "2010-12",
+    "mentions": 10
+  },
+  {
+    "date": "2011-01",
+    "mentions": 6
+  },
+  {
+    "date": "2011-02",
+    "mentions": 6
+  },
+  {
+    "date": "2011-03",
+    "mentions": 3
+  },
+  {
+    "date": "2011-04",
+    "mentions": 3
+  },
+  {
+    "date": "2011-05",
+    "mentions": 3
+  },
+  {
+    "date": "2011-06",
+    "mentions": 6
+  },
+  {
+    "date": "2011-07",
+    "mentions": 1
+  },
+  {
+    "date": "2011-08",
+    "mentions": 12
+  },
+  {
+    "date": "2011-09",
+    "mentions": 2
+  },
+  {
+    "date": "2011-10",
+    "mentions": 3
+  },
+  {
+    "date": "2011-11",
+    "mentions": 11
+  },
+  {
+    "date": "2011-12",
+    "mentions": 6
+  },
+  {
+    "date": "2012-01",
+    "mentions": 11
+  },
+  {
+    "date": "2012-02",
+    "mentions": 2
+  },
+  {
+    "date": "2012-03",
+    "mentions": 4
+  },
+  {
+    "date": "2012-04",
+    "mentions": 9
+  },
+  {
+    "date": "2012-05",
+    "mentions": 12
+  },
+  {
+    "date": "2012-06",
+    "mentions": 7
+  },
+  {
+    "date": "2012-07",
+    "mentions": 8
+  },
+  {
+    "date": "2012-08",
+    "mentions": 12
+  },
+  {
+    "date": "2012-09",
+    "mentions": 18
+  },
+  {
+    "date": "2012-10",
+    "mentions": 3
+  },
+  {
+    "date": "2012-11",
+    "mentions": 4
+  },
+  {
+    "date": "2012-12",
+    "mentions": 9
+  },
+  {
+    "date": "2013-01",
+    "mentions": 5
+  },
+  {
+    "date": "2013-02",
+    "mentions": 19
+  },
+  {
+    "date": "2013-03",
+    "mentions": 6
+  },
+  {
+    "date": "2013-04",
+    "mentions": 10
+  },
+  {
+    "date": "2013-05",
+    "mentions": 7
+  },
+  {
+    "date": "2013-06",
+    "mentions": 2
+  },
+  {
+    "date": "2013-07",
+    "mentions": 6
+  },
+  {
+    "date": "2013-08",
+    "mentions": 2
+  },
+  {
+    "date": "2013-09",
     "mentions": 21
   },
   {
-    "year": 2010,
+    "date": "2013-10",
+    "mentions": 17
+  },
+  {
+    "date": "2013-11",
+    "mentions": 9
+  },
+  {
+    "date": "2013-12",
+    "mentions": 16
+  },
+  {
+    "date": "2014-01",
+    "mentions": 26
+  },
+  {
+    "date": "2014-02",
+    "mentions": 4
+  },
+  {
+    "date": "2014-03",
+    "mentions": 0
+  },
+  {
+    "date": "2014-04",
+    "mentions": 5
+  },
+  {
+    "date": "2014-05",
+    "mentions": 9
+  },
+  {
+    "date": "2014-06",
+    "mentions": 3
+  },
+  {
+    "date": "2014-07",
+    "mentions": 5
+  },
+  {
+    "date": "2014-08",
+    "mentions": 0
+  },
+  {
+    "date": "2014-09",
+    "mentions": 3
+  },
+  {
+    "date": "2014-10",
+    "mentions": 18
+  },
+  {
+    "date": "2014-11",
+    "mentions": 9
+  },
+  {
+    "date": "2014-12",
+    "mentions": 10
+  },
+  {
+    "date": "2015-01",
+    "mentions": 10
+  },
+  {
+    "date": "2015-02",
+    "mentions": 6
+  },
+  {
+    "date": "2015-03",
+    "mentions": 3
+  },
+  {
+    "date": "2015-04",
+    "mentions": 5
+  },
+  {
+    "date": "2015-05",
+    "mentions": 8
+  },
+  {
+    "date": "2015-06",
+    "mentions": 14
+  },
+  {
+    "date": "2015-07",
+    "mentions": 3
+  },
+  {
+    "date": "2015-08",
+    "mentions": 14
+  },
+  {
+    "date": "2015-09",
+    "mentions": 5
+  },
+  {
+    "date": "2015-10",
+    "mentions": 4
+  },
+  {
+    "date": "2015-11",
+    "mentions": 5
+  },
+  {
+    "date": "2015-12",
+    "mentions": 17
+  },
+  {
+    "date": "2016-01",
+    "mentions": 16
+  },
+  {
+    "date": "2016-02",
+    "mentions": 9
+  },
+  {
+    "date": "2016-03",
+    "mentions": 9
+  },
+  {
+    "date": "2016-04",
+    "mentions": 29
+  },
+  {
+    "date": "2016-05",
+    "mentions": 6
+  },
+  {
+    "date": "2016-06",
+    "mentions": 5
+  },
+  {
+    "date": "2016-07",
+    "mentions": 10
+  },
+  {
+    "date": "2016-08",
+    "mentions": 24
+  },
+  {
+    "date": "2016-09",
+    "mentions": 10
+  },
+  {
+    "date": "2016-10",
+    "mentions": 21
+  },
+  {
+    "date": "2016-11",
+    "mentions": 21
+  },
+  {
+    "date": "2016-12",
+    "mentions": 14
+  },
+  {
+    "date": "2017-01",
+    "mentions": 22
+  },
+  {
+    "date": "2017-02",
+    "mentions": 15
+  },
+  {
+    "date": "2017-03",
+    "mentions": 14
+  },
+  {
+    "date": "2017-04",
+    "mentions": 8
+  },
+  {
+    "date": "2017-05",
+    "mentions": 10
+  },
+  {
+    "date": "2017-06",
+    "mentions": 30
+  },
+  {
+    "date": "2017-07",
+    "mentions": 17
+  },
+  {
+    "date": "2017-08",
+    "mentions": 11
+  },
+  {
+    "date": "2017-09",
+    "mentions": 26
+  },
+  {
+    "date": "2017-10",
+    "mentions": 11
+  },
+  {
+    "date": "2017-11",
+    "mentions": 7
+  },
+  {
+    "date": "2017-12",
+    "mentions": 21
+  },
+  {
+    "date": "2018-01",
+    "mentions": 1
+  },
+  {
+    "date": "2018-02",
+    "mentions": 9
+  },
+  {
+    "date": "2018-03",
+    "mentions": 14
+  },
+  {
+    "date": "2018-04",
+    "mentions": 13
+  },
+  {
+    "date": "2018-05",
+    "mentions": 18
+  },
+  {
+    "date": "2018-06",
+    "mentions": 11
+  },
+  {
+    "date": "2018-07",
+    "mentions": 15
+  },
+  {
+    "date": "2018-08",
+    "mentions": 22
+  },
+  {
+    "date": "2018-09",
+    "mentions": 4
+  },
+  {
+    "date": "2018-10",
+    "mentions": 10
+  },
+  {
+    "date": "2018-11",
+    "mentions": 16
+  },
+  {
+    "date": "2018-12",
+    "mentions": 19
+  },
+  {
+    "date": "2019-01",
+    "mentions": 21
+  },
+  {
+    "date": "2019-02",
+    "mentions": 9
+  },
+  {
+    "date": "2019-03",
+    "mentions": 4
+  },
+  {
+    "date": "2019-04",
+    "mentions": 18
+  },
+  {
+    "date": "2019-05",
+    "mentions": 33
+  },
+  {
+    "date": "2019-06",
+    "mentions": 24
+  },
+  {
+    "date": "2019-07",
+    "mentions": 6
+  },
+  {
+    "date": "2019-08",
+    "mentions": 12
+  },
+  {
+    "date": "2019-09",
+    "mentions": 13
+  },
+  {
+    "date": "2019-10",
+    "mentions": 12
+  },
+  {
+    "date": "2019-11",
+    "mentions": 15
+  },
+  {
+    "date": "2019-12",
+    "mentions": 10
+  },
+  {
+    "date": "2020-01",
+    "mentions": 20
+  },
+  {
+    "date": "2020-02",
+    "mentions": 11
+  },
+  {
+    "date": "2020-03",
+    "mentions": 9
+  },
+  {
+    "date": "2020-04",
+    "mentions": 11
+  },
+  {
+    "date": "2020-05",
+    "mentions": 40
+  },
+  {
+    "date": "2020-06",
+    "mentions": 37
+  },
+  {
+    "date": "2020-07",
+    "mentions": 24
+  },
+  {
+    "date": "2020-08",
+    "mentions": 13
+  },
+  {
+    "date": "2020-09",
+    "mentions": 22
+  },
+  {
+    "date": "2020-10",
+    "mentions": 26
+  },
+  {
+    "date": "2020-11",
+    "mentions": 21
+  },
+  {
+    "date": "2020-12",
+    "mentions": 30
+  },
+  {
+    "date": "2021-01",
+    "mentions": 36
+  },
+  {
+    "date": "2021-02",
+    "mentions": 15
+  },
+  {
+    "date": "2021-03",
+    "mentions": 15
+  },
+  {
+    "date": "2021-04",
+    "mentions": 31
+  },
+  {
+    "date": "2021-05",
+    "mentions": 18
+  },
+  {
+    "date": "2021-06",
+    "mentions": 29
+  },
+  {
+    "date": "2021-07",
+    "mentions": 22
+  },
+  {
+    "date": "2021-08",
+    "mentions": 60
+  },
+  {
+    "date": "2021-09",
+    "mentions": 54
+  },
+  {
+    "date": "2021-10",
     "mentions": 65
   },
   {
-    "year": 2011,
-    "mentions": 62
+    "date": "2021-11",
+    "mentions": 15
   },
   {
-    "year": 2012,
-    "mentions": 100
+    "date": "2021-12",
+    "mentions": 31
   },
   {
-    "year": 2013,
-    "mentions": 120
+    "date": "2022-01",
+    "mentions": 40
   },
   {
-    "year": 2014,
-    "mentions": 92
+    "date": "2022-02",
+    "mentions": 32
   },
   {
-    "year": 2015,
-    "mentions": 96
+    "date": "2022-03",
+    "mentions": 36
   },
   {
-    "year": 2016,
-    "mentions": 174
+    "date": "2022-04",
+    "mentions": 38
   },
   {
-    "year": 2017,
-    "mentions": 196
+    "date": "2022-05",
+    "mentions": 28
   },
   {
-    "year": 2018,
-    "mentions": 152
+    "date": "2022-06",
+    "mentions": 38
   },
   {
-    "year": 2019,
-    "mentions": 177
+    "date": "2022-07",
+    "mentions": 26
   },
   {
-    "year": 2020,
-    "mentions": 264
+    "date": "2022-08",
+    "mentions": 26
   },
   {
-    "year": 2021,
-    "mentions": 391
+    "date": "2022-09",
+    "mentions": 25
   },
   {
-    "year": 2022,
-    "mentions": 439
+    "date": "2022-10",
+    "mentions": 34
   },
   {
-    "year": 2023,
-    "mentions": 488
+    "date": "2022-11",
+    "mentions": 29
   },
   {
-    "year": 2024,
-    "mentions": 361
+    "date": "2022-12",
+    "mentions": 87
   },
   {
-    "year": 2025,
-    "mentions": 448
+    "date": "2023-01",
+    "mentions": 85
   },
   {
-    "year": 2026,
-    "mentions": 362
+    "date": "2023-02",
+    "mentions": 25
+  },
+  {
+    "date": "2023-03",
+    "mentions": 39
+  },
+  {
+    "date": "2023-04",
+    "mentions": 73
+  },
+  {
+    "date": "2023-05",
+    "mentions": 22
+  },
+  {
+    "date": "2023-06",
+    "mentions": 27
+  },
+  {
+    "date": "2023-07",
+    "mentions": 46
+  },
+  {
+    "date": "2023-08",
+    "mentions": 39
+  },
+  {
+    "date": "2023-09",
+    "mentions": 22
+  },
+  {
+    "date": "2023-10",
+    "mentions": 35
+  },
+  {
+    "date": "2023-11",
+    "mentions": 34
+  },
+  {
+    "date": "2023-12",
+    "mentions": 41
+  },
+  {
+    "date": "2024-01",
+    "mentions": 37
+  },
+  {
+    "date": "2024-02",
+    "mentions": 32
+  },
+  {
+    "date": "2024-03",
+    "mentions": 47
+  },
+  {
+    "date": "2024-04",
+    "mentions": 20
+  },
+  {
+    "date": "2024-05",
+    "mentions": 29
+  },
+  {
+    "date": "2024-06",
+    "mentions": 36
+  },
+  {
+    "date": "2024-07",
+    "mentions": 34
+  },
+  {
+    "date": "2024-08",
+    "mentions": 39
+  },
+  {
+    "date": "2024-09",
+    "mentions": 28
+  },
+  {
+    "date": "2024-10",
+    "mentions": 20
+  },
+  {
+    "date": "2024-11",
+    "mentions": 21
+  },
+  {
+    "date": "2024-12",
+    "mentions": 18
+  },
+  {
+    "date": "2025-01",
+    "mentions": 34
+  },
+  {
+    "date": "2025-02",
+    "mentions": 21
+  },
+  {
+    "date": "2025-03",
+    "mentions": 24
+  },
+  {
+    "date": "2025-04",
+    "mentions": 27
+  },
+  {
+    "date": "2025-05",
+    "mentions": 30
+  },
+  {
+    "date": "2025-06",
+    "mentions": 37
+  },
+  {
+    "date": "2025-07",
+    "mentions": 34
+  },
+  {
+    "date": "2025-08",
+    "mentions": 57
+  },
+  {
+    "date": "2025-09",
+    "mentions": 18
+  },
+  {
+    "date": "2025-10",
+    "mentions": 55
+  },
+  {
+    "date": "2025-11",
+    "mentions": 54
+  },
+  {
+    "date": "2025-12",
+    "mentions": 57
+  },
+  {
+    "date": "2026-01",
+    "mentions": 114
+  },
+  {
+    "date": "2026-02",
+    "mentions": 35
+  },
+  {
+    "date": "2026-03",
+    "mentions": 53
+  },
+  {
+    "date": "2026-04",
+    "mentions": 45
+  },
+  {
+    "date": "2026-05",
+    "mentions": 60
+  },
+  {
+    "date": "2026-06",
+    "mentions": 33
+  },
+  {
+    "date": "2026-07",
+    "mentions": 22
+  },
+  {
+    "date": "2026-08",
+    "mentions": 0
   }
 ]

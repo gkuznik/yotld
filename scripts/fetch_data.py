@@ -10,8 +10,17 @@ import re
 import urllib.error
 
 
-def fetch_statcounter():
-    url = "https://gs.statcounter.com/os-market-share/desktop/worldwide/chart.php?device=Desktop&device_hidden=desktop&statType_hidden=os&region_hidden=ww&granularity=monthly&statType=Operating%20System&region=Worldwide&csv=1"
+def fetch_statcounter(existing_data):
+    current_date = datetime.datetime.now()
+    year = current_date.year
+    month = current_date.month - 1
+    if month == 0:
+        month = 12
+        year -= 1
+        
+    target_str = f"{year}-{month:02d}"
+    
+    url = f"https://gs.statcounter.com/os-market-share/desktop/worldwide/chart.php?device_hidden=desktop&statType_hidden=os&region_hidden=ww&granularity=monthly&csv=1&fromMonthYear={target_str}&toMonthYear={target_str}"
     headers = {'User-Agent': 'Mozilla/5.0'}
     
     req = urllib.request.Request(url, headers=headers)
@@ -42,8 +51,13 @@ def fetch_statcounter():
                 'chromeos_share': chrome_share
             })
                     
-    data.sort(key=lambda x: x['date'])
-    return data
+    data_dict = {d['date']: d for d in existing_data} if existing_data else {}
+    for d in data:
+        data_dict[d['date']] = d
+        
+    merged = list(data_dict.values())
+    merged.sort(key=lambda x: x['date'])
+    return merged
 
 def fetch_hn_mentions(existing_data):
     queries = [
@@ -54,44 +68,45 @@ def fetch_hn_mentions(existing_data):
         '"year of linux"',
         'yotld'
     ]
-    start_year = 2009
-    current_year = datetime.datetime.now().year
+    today = datetime.date.today()
+    first = datetime.datetime(today.year, today.month, 1)
+    last_month = first - datetime.timedelta(days=1)
+    month = last_month.month
+    year = last_month.year
+    start_ts = int(datetime.datetime(year, month, 1).timestamp())
+    end_ts = int(first.timestamp()) - 1
     
-    data = existing_data if existing_data else []
-    existing_years = {d['year'] for d in data}
+    data = existing_data if existing_data else []    
     
-    for year in range(start_year, current_year + 1):
-        if year in existing_years and year != current_year:
-            continue
-            
-        start_ts = int(datetime.datetime(year, 1, 1).timestamp())
-        end_ts = int(datetime.datetime(year + 1, 1, 1).timestamp()) - 1
+    total_mentions = 0
+    for q in queries:
+        encoded_query = urllib.parse.quote(q)
+        url = f"https://hn.algolia.com/api/v1/search?query={encoded_query}&numericFilters=created_at_i>{start_ts},created_at_i<{end_ts}"
         
-        total_mentions = 0
-        for q in queries:
-            encoded_query = urllib.parse.quote(q)
-            url = f"https://hn.algolia.com/api/v1/search?query={encoded_query}&numericFilters=created_at_i>{start_ts},created_at_i<{end_ts}"
-            
-            try:
-                req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-                response = urllib.request.urlopen(req)
-                result = json.loads(response.read().decode('utf-8'))
-                total_mentions += result.get('nbHits', 0)
-                time.sleep(0.1) # Be gentle with API
-            except Exception as e:
-                print(f"Error fetching HN data for {q} in {year}: {e}")
-        
-        found = False
-        for d in data:
-            if d['year'] == year:
-                d['mentions'] = total_mentions
-                found = True
-                break
-        if not found:
-            data.append({
-                'year': year,
-                'mentions': total_mentions
-            })
+        try:
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            response = urllib.request.urlopen(req)
+            result = json.loads(response.read().decode('utf-8'))
+            total_mentions += result.get('nbHits', 0)
+            time.sleep(0.1) # Be gentle with API
+        except Exception as e:
+            print(f"Error fetching HN data for {q} in {year}-{month:02d}: {e}")
+    
+    date_str = f"{year}-{month:02d}"
+    
+    found = False
+    for d in data:
+        if d.get('date') == date_str or d.get('year') == date_str: # fallback if 'year' was used previously
+            d['mentions'] = total_mentions
+            if 'year' in d: # update legacy key
+                d['date'] = d.pop('year')
+            found = True
+            break
+    if not found:
+        data.append({
+            'date': date_str,
+            'mentions': total_mentions
+        })
         
     return data
 
@@ -129,13 +144,13 @@ def fetch_steam_hardware_survey():
         print(f"Error fetching Steam data: {e}")
     return None
 
-def fetch_cloudflare_radar():
+def fetch_cloudflare_radar(existing_data):
     token = os.environ.get('CLOUDFLARE_API_TOKEN')
     if not token:
         print("No CLOUDFLARE_API_TOKEN found, skipping Cloudflare Radar")
-        return None
+        return existing_data
         
-    url = "https://api.cloudflare.com/client/v4/radar/http/timeseries_groups/os?name=main&location=US&dateRange=52w&deviceType=DESKTOP&botClass=LIKELY_HUMAN"
+    url = "https://api.cloudflare.com/client/v4/radar/http/timeseries_groups/os?name=main&location=US&dateRange=28d&deviceType=DESKTOP&botClass=LIKELY_HUMAN"
     headers = {
         'Authorization': f'Bearer {token}',
         'Content-Type': 'application/json'
@@ -163,10 +178,16 @@ def fetch_cloudflare_radar():
                 'chromeos_share': float(chrome_vals[i]) if i < len(chrome_vals) else 0.0
             })
             
-        return data
+        data_dict = {d['date']: d for d in existing_data} if existing_data else {}
+        for d in data:
+            data_dict[d['date']] = d
+            
+        merged = list(data_dict.values())
+        merged.sort(key=lambda x: x['date'])
+        return merged
     except Exception as e:
         print(f"Error fetching Cloudflare data: {e}")
-        return None
+        return existing_data
 
 def main():
     os.makedirs('data', exist_ok=True)
@@ -181,7 +202,8 @@ def main():
         return None
 
     print("Fetching StatCounter data...")
-    sc_data = fetch_statcounter()
+    sc_existing = load_data('data/statcounter.json')
+    sc_data = fetch_statcounter(sc_existing)
     if sc_data is not None:
         with open('data/statcounter.json', 'w') as f:
             json.dump(sc_data, f, indent=2)
@@ -194,7 +216,8 @@ def main():
             json.dump(hn_data, f, indent=2)
             
     print("Fetching Cloudflare Radar data...")
-    cf_data = fetch_cloudflare_radar()
+    cf_existing = load_data('data/cloudflare.json')
+    cf_data = fetch_cloudflare_radar(cf_existing)
     if cf_data is not None:
         with open('data/cloudflare.json', 'w') as f:
             json.dump(cf_data, f, indent=2)

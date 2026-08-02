@@ -1465,14 +1465,14 @@
   {
     "date": "2026-06",
     "linux_share": 4.39,
-    "windows_share": 56.550000000000004,
+    "windows_share": 56.540000000000006,
     "macos_share": 16.4,
     "chromeos_share": 1.21
   },
   {
     "date": "2026-07",
     "linux_share": 5.62,
-    "windows_share": 53.169999999999995,
+    "windows_share": 53.16,
     "macos_share": 14.89,
     "chromeos_share": 1.1
   }

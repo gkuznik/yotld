@@ -81,8 +81,8 @@ function initStatCounterChart(data) {
     
     // Create gradient
     const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-    gradient.addColorStop(0, 'rgba(240, 80, 51, 0.5)');
-    gradient.addColorStop(1, 'rgba(240, 80, 51, 0.0)');
+    gradient.addColorStop(0, 'rgba(139, 92, 246, 0.5)'); // Vibrant purple
+    gradient.addColorStop(1, 'rgba(139, 92, 246, 0.0)');
 
     new Chart(ctx, {
         type: 'line',
@@ -91,7 +91,7 @@ function initStatCounterChart(data) {
             datasets: [{
                 label: 'Linux Desktop Share (%)',
                 data: shares,
-                borderColor: '#f05033',
+                borderColor: '#8b5cf6',
                 backgroundColor: gradient,
                 borderWidth: 2,
                 pointRadius: 0,
@@ -127,7 +127,7 @@ function initStatCounterChart(data) {
 function initHackerNewsChart(data) {
     document.getElementById('hn-loader').style.display = 'none';
     
-    const labels = data.map(d => d.year);
+    const labels = data.map(d => d.date);
     const mentions = data.map(d => d.mentions);
     const maxMentions = Math.max(...mentions);
 
@@ -141,9 +141,9 @@ function initHackerNewsChart(data) {
     if (prevYearMentions) {
         const diff = currentYearMentions - prevYearMentions;
         if (diff > 0) {
-            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-up"></i> +${diff} vs last year`;
+            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-up"></i> +${diff}`;
         } else {
-            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-down"></i> ${diff} vs last year`;
+            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-down"></i> ${diff}`;
             trendEl.style.color = '#ef4444';
             trendEl.style.background = 'rgba(239, 68, 68, 0.1)';
         }
@@ -153,22 +153,33 @@ function initHackerNewsChart(data) {
 
     const ctx = document.getElementById('hnChart').getContext('2d');
 
+    const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+    gradient.addColorStop(0, 'rgba(240, 80, 51, 0.5)');
+    gradient.addColorStop(1, 'rgba(240, 80, 51, 0.0)');
+
     new Chart(ctx, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: labels,
             datasets: [{
                 label: 'Mentions',
                 data: mentions,
-                backgroundColor: mentions.map(m => m === maxMentions ? 'rgba(240, 80, 51, 0.9)' : 'rgba(240, 80, 51, 0.3)'),
-                borderColor: 'rgba(240, 80, 51, 0.8)',
-                borderWidth: 1,
-                borderRadius: 4
+                borderColor: '#f05033',
+                backgroundColor: gradient,
+                borderWidth: 2,
+                pointRadius: 0,
+                pointHitRadius: 10,
+                fill: true,
+                tension: 0.4
             }]
         },
         options: {
             responsive: true,
             maintainAspectRatio: false,
+            interaction: {
+                mode: 'index',
+                intersect: false,
+            },
             plugins: {
                 legend: { display: false },
                 tooltip: {
@@ -181,7 +192,8 @@ function initHackerNewsChart(data) {
             },
             scales: {
                 x: {
-                    grid: { display: false }
+                    grid: { display: false },
+                    ticks: { maxTicksLimit: 10 }
                 },
                 y: {
                     grid: { color: 'rgba(255,255,255,0.05)' },
@@ -204,6 +216,26 @@ function initCloudflareChart(data) {
     });
 
     const linuxData = data.map(d => d.linux_share);
+
+    const currentShare = linuxData[linuxData.length - 1];
+    const prevShare = linuxData[0];
+    const diff = (currentShare - prevShare).toFixed(2);
+
+    const currentEl = document.getElementById('cf-current');
+    if (currentEl) currentEl.textContent = currentShare.toFixed(2);
+    
+    const trendEl = document.getElementById('cf-trend');
+    if (trendEl) {
+        if (diff > 0) {
+            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-up"></i> +${diff}%`;
+            trendEl.style.color = 'var(--success-color)';
+            trendEl.style.background = 'rgba(16, 185, 129, 0.1)';
+        } else {
+            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-down"></i> ${diff}%`;
+            trendEl.style.color = '#ef4444';
+            trendEl.style.background = 'rgba(239, 68, 68, 0.1)';
+        }
+    }
 
     const ctx = document.getElementById('cfChart').getContext('2d');
     
@@ -261,13 +293,29 @@ function initSteamChart(data) {
     data = data.filter(d => d.date >= '2014');
     if (data.length === 0) return;
 
-    // Display current value
-    const current = data[data.length - 1];
-    const currentEl = document.getElementById('steam-current');
-    if (currentEl) currentEl.textContent = current.linux_share.toFixed(2);
-
     const labels = data.map(d => d.date);
     const shares = data.map(d => d.linux_share);
+
+    // Display current value & trend
+    const currentShare = shares[shares.length - 1];
+    const prevShare = shares[shares.length - 13] || shares[shares.length - 2];
+    const diff = (currentShare - prevShare).toFixed(2);
+
+    const currentEl = document.getElementById('steam-current');
+    if (currentEl) currentEl.textContent = currentShare.toFixed(2);
+
+    const trendEl = document.getElementById('steam-trend');
+    if (trendEl) {
+        if (diff > 0) {
+            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-up"></i> +${diff}% YoY`;
+            trendEl.style.color = 'var(--success-color)';
+            trendEl.style.background = 'rgba(16, 185, 129, 0.1)';
+        } else {
+            trendEl.innerHTML = `<i class="fa-solid fa-arrow-trend-down"></i> ${diff}% YoY`;
+            trendEl.style.color = '#ef4444';
+            trendEl.style.background = 'rgba(239, 68, 68, 0.1)';
+        }
+    }
 
     const ctx = document.getElementById('steamChart').getContext('2d');
     
@@ -285,11 +333,10 @@ function initSteamChart(data) {
                 borderColor: '#10b981',
                 backgroundColor: gradient,
                 borderWidth: 2,
-                pointRadius: 4,
-                pointBackgroundColor: '#10b981',
+                pointRadius: 0,
                 pointHitRadius: 10,
                 fill: true,
-                tension: 0.3
+                tension: 0.4
             }]
         },
         options: {
