@@ -1,0 +1,908 @@
+[
+  {
+    "date": "2010-06",
+    "linux_share": 0.0,
+    "windows_share": 89.8,
+    "macos_share": 6.47
+  },
+  {
+    "date": "2010-11",
+    "linux_share": 0.0,
+    "windows_share": 95.26,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2011-08",
+    "linux_share": 0.0,
+    "windows_share": 94.47,
+    "macos_share": 5.54
+  },
+  {
+    "date": "2012-04",
+    "linux_share": 0.0,
+    "windows_share": 96.4,
+    "macos_share": 3.62
+  },
+  {
+    "date": "2012-05",
+    "linux_share": 0.0,
+    "windows_share": 96.22,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2012-07",
+    "linux_share": 0.0,
+    "windows_share": 95.53,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2012-08",
+    "linux_share": 0.0,
+    "windows_share": 95.53,
+    "macos_share": 4.47
+  },
+  {
+    "date": "2012-10",
+    "linux_share": 0.0,
+    "windows_share": 95.75,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2012-12",
+    "linux_share": 0.0,
+    "windows_share": 96.05,
+    "macos_share": 3.95
+  },
+  {
+    "date": "2013-02",
+    "linux_share": 0.0,
+    "windows_share": 96.72,
+    "macos_share": 3.28
+  },
+  {
+    "date": "2013-03",
+    "linux_share": 0.0,
+    "windows_share": 96.67,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2013-06",
+    "linux_share": 0.0,
+    "windows_share": 96.3,
+    "macos_share": 3.68
+  },
+  {
+    "date": "2013-09",
+    "linux_share": 0.0,
+    "windows_share": 96.22,
+    "macos_share": 3.78
+  },
+  {
+    "date": "2013-11",
+    "linux_share": 0.0,
+    "windows_share": 96.37,
+    "macos_share": 3.62
+  },
+  {
+    "date": "2013-12",
+    "linux_share": 0.0,
+    "windows_share": 95.94,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2014-01",
+    "linux_share": 1.41,
+    "windows_share": 95.02,
+    "macos_share": 3.56
+  },
+  {
+    "date": "2014-03",
+    "linux_share": 1.31,
+    "windows_share": 95.51,
+    "macos_share": 3.53
+  },
+  {
+    "date": "2014-04",
+    "linux_share": 0.0,
+    "windows_share": 95.26,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2014-05",
+    "linux_share": 0.0,
+    "windows_share": 95.48,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2014-06",
+    "linux_share": 1.31,
+    "windows_share": 95.07,
+    "macos_share": 3.62
+  },
+  {
+    "date": "2014-07",
+    "linux_share": 1.19,
+    "windows_share": 95.38,
+    "macos_share": 3.41
+  },
+  {
+    "date": "2014-08",
+    "linux_share": 1.15,
+    "windows_share": 95.47,
+    "macos_share": 3.38
+  },
+  {
+    "date": "2014-09",
+    "linux_share": 1.24,
+    "windows_share": 95.33,
+    "macos_share": 3.43
+  },
+  {
+    "date": "2014-10",
+    "linux_share": 1.27,
+    "windows_share": 95.29,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2014-11",
+    "linux_share": 1.23,
+    "windows_share": 95.49,
+    "macos_share": 3.28
+  },
+  {
+    "date": "2014-12",
+    "linux_share": 1.19,
+    "windows_share": 95.86,
+    "macos_share": 3.4
+  },
+  {
+    "date": "2015-01",
+    "linux_share": 1.18,
+    "windows_share": 95.49,
+    "macos_share": 3.33
+  },
+  {
+    "date": "2015-02",
+    "linux_share": 1.1,
+    "windows_share": 95.68,
+    "macos_share": 3.24
+  },
+  {
+    "date": "2015-03",
+    "linux_share": 1.11,
+    "windows_share": 95.99,
+    "macos_share": 3.4
+  },
+  {
+    "date": "2015-04",
+    "linux_share": 1.03,
+    "windows_share": 95.82,
+    "macos_share": 3.17
+  },
+  {
+    "date": "2015-05",
+    "linux_share": 0.97,
+    "windows_share": 95.78,
+    "macos_share": 3.24
+  },
+  {
+    "date": "2015-06",
+    "linux_share": 0.94,
+    "windows_share": 95.81,
+    "macos_share": 3.26
+  },
+  {
+    "date": "2015-07",
+    "linux_share": 0.0,
+    "windows_share": 95.93,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2015-08",
+    "linux_share": 0.98,
+    "windows_share": 95.76,
+    "macos_share": 3.24
+  },
+  {
+    "date": "2015-09",
+    "linux_share": 0.0,
+    "windows_share": 95.71,
+    "macos_share": 3.25
+  },
+  {
+    "date": "2015-10",
+    "linux_share": 0.0,
+    "windows_share": 95.45,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2015-11",
+    "linux_share": 1.08,
+    "windows_share": 95.27,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2015-12",
+    "linux_share": 1.02,
+    "windows_share": 95.4,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2016-01",
+    "linux_share": 1.01,
+    "windows_share": 95.41,
+    "macos_share": 3.59
+  },
+  {
+    "date": "2016-02",
+    "linux_share": 0.98,
+    "windows_share": 95.61,
+    "macos_share": 3.41
+  },
+  {
+    "date": "2016-03",
+    "linux_share": 0.0,
+    "windows_share": 95.31,
+    "macos_share": 3.31
+  },
+  {
+    "date": "2016-04",
+    "linux_share": 0.0,
+    "windows_share": 95.43,
+    "macos_share": 3.58
+  },
+  {
+    "date": "2016-05",
+    "linux_share": 0.0,
+    "windows_share": 95.43,
+    "macos_share": 3.63
+  },
+  {
+    "date": "2016-06",
+    "linux_share": 0.91,
+    "windows_share": 95.51,
+    "macos_share": 3.61
+  },
+  {
+    "date": "2016-07",
+    "linux_share": 0.91,
+    "windows_share": 95.71,
+    "macos_share": 3.37
+  },
+  {
+    "date": "2016-08",
+    "linux_share": 0.92,
+    "windows_share": 95.74,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2016-09",
+    "linux_share": 1.0,
+    "windows_share": 95.44,
+    "macos_share": 3.53
+  },
+  {
+    "date": "2016-10",
+    "linux_share": 0.99,
+    "windows_share": 95.46,
+    "macos_share": 3.52
+  },
+  {
+    "date": "2016-11",
+    "linux_share": 0.96,
+    "windows_share": 95.4,
+    "macos_share": 3.63
+  },
+  {
+    "date": "2016-12",
+    "linux_share": 0.91,
+    "windows_share": 95.38,
+    "macos_share": 3.33
+  },
+  {
+    "date": "2017-01",
+    "linux_share": 0.9,
+    "windows_share": 95.79,
+    "macos_share": 3.32
+  },
+  {
+    "date": "2017-03",
+    "linux_share": 0.0,
+    "windows_share": 96.04,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2017-04",
+    "linux_share": 0.85,
+    "windows_share": 96.14,
+    "macos_share": 3.0
+  },
+  {
+    "date": "2017-05",
+    "linux_share": 0.87,
+    "windows_share": 96.06,
+    "macos_share": 3.07
+  },
+  {
+    "date": "2017-06",
+    "linux_share": 0.81,
+    "windows_share": 96.21,
+    "macos_share": 2.96
+  },
+  {
+    "date": "2017-07",
+    "linux_share": 0.84,
+    "windows_share": 96.12,
+    "macos_share": 3.05
+  },
+  {
+    "date": "2017-08",
+    "linux_share": 0.7,
+    "windows_share": 96.29,
+    "macos_share": 3.03
+  },
+  {
+    "date": "2017-09",
+    "linux_share": 0.68,
+    "windows_share": 96.59,
+    "macos_share": 2.75
+  },
+  {
+    "date": "2017-10",
+    "linux_share": 0.37,
+    "windows_share": 98.05,
+    "macos_share": 1.56
+  },
+  {
+    "date": "2017-11",
+    "linux_share": 0.31,
+    "windows_share": 98.34,
+    "macos_share": 1.33
+  },
+  {
+    "date": "2017-12",
+    "linux_share": 0.36,
+    "windows_share": 98.26,
+    "macos_share": 1.42
+  },
+  {
+    "date": "2018-02",
+    "linux_share": 0.33,
+    "windows_share": 98.31,
+    "macos_share": 1.35
+  },
+  {
+    "date": "2018-03",
+    "linux_share": 0.38,
+    "windows_share": 97.92,
+    "macos_share": 1.67
+  },
+  {
+    "date": "2018-04",
+    "linux_share": 0.62,
+    "windows_share": 96.44,
+    "macos_share": 2.93
+  },
+  {
+    "date": "2018-05",
+    "linux_share": 0.61,
+    "windows_share": 96.29,
+    "macos_share": 3.09
+  },
+  {
+    "date": "2018-07",
+    "linux_share": 0.55,
+    "windows_share": 96.78,
+    "macos_share": 2.68
+  },
+  {
+    "date": "2018-08",
+    "linux_share": 0.69,
+    "windows_share": 96.47,
+    "macos_share": 2.86
+  },
+  {
+    "date": "2018-09",
+    "linux_share": 0.77,
+    "windows_share": 96.3,
+    "macos_share": 2.92
+  },
+  {
+    "date": "2018-10",
+    "linux_share": 0.71,
+    "windows_share": 96.43,
+    "macos_share": 2.84
+  },
+  {
+    "date": "2018-11",
+    "linux_share": 0.8,
+    "windows_share": 95.99,
+    "macos_share": 3.2
+  },
+  {
+    "date": "2018-12",
+    "linux_share": 0.81,
+    "windows_share": 95.87,
+    "macos_share": 3.32
+  },
+  {
+    "date": "2019-01",
+    "linux_share": 0.83,
+    "windows_share": 95.91,
+    "macos_share": 3.28
+  },
+  {
+    "date": "2019-02",
+    "linux_share": 0.76,
+    "windows_share": 96.11,
+    "macos_share": 3.1
+  },
+  {
+    "date": "2019-03",
+    "linux_share": 0.82,
+    "windows_share": 95.92,
+    "macos_share": 3.28
+  },
+  {
+    "date": "2019-04",
+    "linux_share": 0.81,
+    "windows_share": 96.14,
+    "macos_share": 3.07
+  },
+  {
+    "date": "2019-06",
+    "linux_share": 0.77,
+    "windows_share": 96.5,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2019-07",
+    "linux_share": 0.79,
+    "windows_share": 96.27,
+    "macos_share": 2.93
+  },
+  {
+    "date": "2019-08",
+    "linux_share": 0.81,
+    "windows_share": 96.19,
+    "macos_share": 3.0
+  },
+  {
+    "date": "2019-09",
+    "linux_share": 0.82,
+    "windows_share": 96.1,
+    "macos_share": 3.08
+  },
+  {
+    "date": "2019-10",
+    "linux_share": 0.82,
+    "windows_share": 96.03,
+    "macos_share": 3.15
+  },
+  {
+    "date": "2019-11",
+    "linux_share": 0.8,
+    "windows_share": 96.28,
+    "macos_share": 2.91
+  },
+  {
+    "date": "2020-02",
+    "linux_share": 0.86,
+    "windows_share": 96.02,
+    "macos_share": 3.17
+  },
+  {
+    "date": "2020-03",
+    "linux_share": 0.85,
+    "windows_share": 95.33,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2020-04",
+    "linux_share": 0.92,
+    "windows_share": 95.05,
+    "macos_share": 4.04
+  },
+  {
+    "date": "2020-05",
+    "linux_share": 0.89,
+    "windows_share": 95.05,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2020-06",
+    "linux_share": 0.91,
+    "windows_share": 95.65,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2020-07",
+    "linux_share": 0.0,
+    "windows_share": 95.94,
+    "macos_share": 3.19
+  },
+  {
+    "date": "2020-09",
+    "linux_share": 0.89,
+    "windows_share": 95.63,
+    "macos_share": 3.46
+  },
+  {
+    "date": "2020-10",
+    "linux_share": 0.86,
+    "windows_share": 95.67,
+    "macos_share": 3.45
+  },
+  {
+    "date": "2020-12",
+    "linux_share": 0.74,
+    "windows_share": 96.53,
+    "macos_share": 2.74
+  },
+  {
+    "date": "2021-04",
+    "linux_share": 0.84,
+    "windows_share": 96.29,
+    "macos_share": 2.88
+  },
+  {
+    "date": "2021-05",
+    "linux_share": 0.85,
+    "windows_share": 96.18,
+    "macos_share": 2.98
+  },
+  {
+    "date": "2021-06",
+    "linux_share": 0.0,
+    "windows_share": 96.59,
+    "macos_share": 2.54
+  },
+  {
+    "date": "2021-07",
+    "linux_share": 0.97,
+    "windows_share": 96.51,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2021-08",
+    "linux_share": 1.01,
+    "windows_share": 96.52,
+    "macos_share": 2.49
+  },
+  {
+    "date": "2021-09",
+    "linux_share": 1.04,
+    "windows_share": 96.5,
+    "macos_share": 2.48
+  },
+  {
+    "date": "2021-10",
+    "linux_share": 0.0,
+    "windows_share": 96.33,
+    "macos_share": 2.56
+  },
+  {
+    "date": "2021-11",
+    "linux_share": 1.16,
+    "windows_share": 96.14,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2022-01",
+    "linux_share": 0.0,
+    "windows_share": 96.17,
+    "macos_share": 2.75
+  },
+  {
+    "date": "2022-03",
+    "linux_share": 0.99,
+    "windows_share": 96.57,
+    "macos_share": 2.45
+  },
+  {
+    "date": "2022-04",
+    "linux_share": 1.12,
+    "windows_share": 96.31,
+    "macos_share": 2.53
+  },
+  {
+    "date": "2022-05",
+    "linux_share": 1.09,
+    "windows_share": 96.68,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2022-06",
+    "linux_share": 0.0,
+    "windows_share": 96.38,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2022-07",
+    "linux_share": 1.23,
+    "windows_share": 97.03,
+    "macos_share": 1.73
+  },
+  {
+    "date": "2022-08",
+    "linux_share": 1.29,
+    "windows_share": 96.24,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2022-09",
+    "linux_share": 1.2,
+    "windows_share": 96.41,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2022-10",
+    "linux_share": 1.3,
+    "windows_share": 96.5,
+    "macos_share": 2.21
+  },
+  {
+    "date": "2022-11",
+    "linux_share": 0.0,
+    "windows_share": 96.12,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2022-12",
+    "linux_share": 1.35,
+    "windows_share": 96.15,
+    "macos_share": 2.47
+  },
+  {
+    "date": "2023-01",
+    "linux_share": 0.0,
+    "windows_share": 96.02,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2023-02",
+    "linux_share": 0.0,
+    "windows_share": 96.37,
+    "macos_share": 2.34
+  },
+  {
+    "date": "2023-03",
+    "linux_share": 0.87,
+    "windows_share": 97.75,
+    "macos_share": 1.39
+  },
+  {
+    "date": "2023-05",
+    "linux_share": 1.5,
+    "windows_share": 96.12,
+    "macos_share": 2.39
+  },
+  {
+    "date": "2023-06",
+    "linux_share": 0.0,
+    "windows_share": 96.78,
+    "macos_share": 1.78
+  },
+  {
+    "date": "2023-07",
+    "linux_share": 2.02,
+    "windows_share": 96.21,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2023-08",
+    "linux_share": 1.82,
+    "windows_share": 96.6,
+    "macos_share": 1.56
+  },
+  {
+    "date": "2023-09",
+    "linux_share": 1.61,
+    "windows_share": 96.96,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2023-10",
+    "linux_share": 0.0,
+    "windows_share": 97.42,
+    "macos_share": 0.0
+  },
+  {
+    "date": "2023-11",
+    "linux_share": 1.92,
+    "windows_share": 96.55,
+    "macos_share": 1.52
+  },
+  {
+    "date": "2023-12",
+    "linux_share": 1.91,
+    "windows_share": 96.41,
+    "macos_share": 1.65
+  },
+  {
+    "date": "2024-01",
+    "linux_share": 1.93,
+    "windows_share": 96.51,
+    "macos_share": 1.53
+  },
+  {
+    "date": "2024-02",
+    "linux_share": 1.72,
+    "windows_share": 96.92,
+    "macos_share": 1.33
+  },
+  {
+    "date": "2024-03",
+    "linux_share": 1.96,
+    "windows_share": 96.66,
+    "macos_share": 1.38
+  },
+  {
+    "date": "2024-04",
+    "linux_share": 1.94,
+    "windows_share": 96.76,
+    "macos_share": 1.33
+  },
+  {
+    "date": "2024-05",
+    "linux_share": 2.28,
+    "windows_share": 96.4,
+    "macos_share": 1.38
+  },
+  {
+    "date": "2024-06",
+    "linux_share": 2.1,
+    "windows_share": 96.62,
+    "macos_share": 1.32
+  },
+  {
+    "date": "2024-07",
+    "linux_share": 2.13,
+    "windows_share": 96.55,
+    "macos_share": 1.37
+  },
+  {
+    "date": "2024-08",
+    "linux_share": 1.95,
+    "windows_share": 96.77,
+    "macos_share": 1.29
+  },
+  {
+    "date": "2024-09",
+    "linux_share": 1.85,
+    "windows_share": 96.84,
+    "macos_share": 1.3
+  },
+  {
+    "date": "2024-10",
+    "linux_share": 1.78,
+    "windows_share": 97.32,
+    "macos_share": 1.12
+  },
+  {
+    "date": "2024-11",
+    "linux_share": 2.07,
+    "windows_share": 96.56,
+    "macos_share": 1.41
+  },
+  {
+    "date": "2024-12",
+    "linux_share": 2.03,
+    "windows_share": 96.31,
+    "macos_share": 1.64
+  },
+  {
+    "date": "2025-01",
+    "linux_share": 2.02,
+    "windows_share": 96.53,
+    "macos_share": 1.4
+  },
+  {
+    "date": "2025-02",
+    "linux_share": 1.44,
+    "windows_share": 97.59,
+    "macos_share": 0.99
+  },
+  {
+    "date": "2025-03",
+    "linux_share": 2.38,
+    "windows_share": 96.09,
+    "macos_share": 1.57
+  },
+  {
+    "date": "2025-04",
+    "linux_share": 2.22,
+    "windows_share": 96.11,
+    "macos_share": 1.61
+  },
+  {
+    "date": "2025-05",
+    "linux_share": 2.68,
+    "windows_share": 95.45,
+    "macos_share": 1.84
+  },
+  {
+    "date": "2025-06",
+    "linux_share": 2.57,
+    "windows_share": 95.67,
+    "macos_share": 1.75
+  },
+  {
+    "date": "2025-07",
+    "linux_share": 2.87,
+    "windows_share": 95.23,
+    "macos_share": 1.88
+  },
+  {
+    "date": "2025-08",
+    "linux_share": 2.64,
+    "windows_share": 95.58,
+    "macos_share": 1.77
+  },
+  {
+    "date": "2025-09",
+    "linux_share": 2.71,
+    "windows_share": 95.4,
+    "macos_share": 1.92
+  },
+  {
+    "date": "2025-10",
+    "linux_share": 3.0,
+    "windows_share": 94.85,
+    "macos_share": 2.09
+  },
+  {
+    "date": "2025-11",
+    "linux_share": 3.21,
+    "windows_share": 94.78,
+    "macos_share": 2.0
+  },
+  {
+    "date": "2025-12",
+    "linux_share": 3.56,
+    "windows_share": 94.24,
+    "macos_share": 2.18
+  },
+  {
+    "date": "2026-01",
+    "linux_share": 3.37,
+    "windows_share": 94.61,
+    "macos_share": 2.01
+  },
+  {
+    "date": "2026-02",
+    "linux_share": 2.09,
+    "windows_share": 94.21,
+    "macos_share": 2.1
+  },
+  {
+    "date": "2026-03",
+    "linux_share": 3.87,
+    "windows_share": 93.81,
+    "macos_share": 2.35
+  },
+  {
+    "date": "2026-04",
+    "linux_share": 3.64,
+    "windows_share": 94.35,
+    "macos_share": 2.0
+  },
+  {
+    "date": "2026-05",
+    "linux_share": 4.02,
+    "windows_share": 93.85,
+    "macos_share": 2.14
+  },
+  {
+    "date": "2026-06",
+    "linux_share": 3.68,
+    "windows_share": 94.1,
+    "macos_share": 2.21
+  },
+  {
+    "date": "2026-08",
+    "linux_share": 3.69,
+    "windows_share": 94.1,
+    "macos_share": 2.21
+  }
+]
