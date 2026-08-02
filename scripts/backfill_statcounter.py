@@ -39,7 +39,7 @@ def backfill():
     data.sort(key=lambda x: x['date'])
     
     os.makedirs('data', exist_ok=True)
-    with open('data/statcounter.json', 'w') as f:
+    with open('data/statcountr.json', 'w') as f:
         json.dump(data, f, indent=2)
         
     print("StatCounter backfill complete. Total entries:", len(data))

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         const [scRes, hnRes, cfRes, steamRes] = await Promise.all([
-            fetch('data/statcounter.json').catch(() => null),
+            fetch('data/statcountr.json').catch(() => null),
             fetch('data/hackernews.json').catch(() => null),
             fetch('data/cloudflare.json').catch(() => null),
             fetch('data/steam.json').catch(() => null)

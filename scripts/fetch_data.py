@@ -202,10 +202,10 @@ def main():
         return None
 
     print("Fetching StatCounter data...")
-    sc_existing = load_data('data/statcounter.json')
+    sc_existing = load_data('data/statcountr.json')
     sc_data = fetch_statcounter(sc_existing)
     if sc_data is not None:
-        with open('data/statcounter.json', 'w') as f:
+        with open('data/statcountr.json', 'w') as f:
             json.dump(sc_data, f, indent=2)
     
     print("Fetching Hacker News mentions...")
