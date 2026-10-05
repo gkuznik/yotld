@@ -910,5 +910,11 @@
     "windows_share": 93.95,
     "macos_share": 2.14,
     "linux_share": 3.9
+  },
+  {
+    "date": "2026-10",
+    "windows_share": 95.03,
+    "macos_share": 1.92,
+    "linux_share": 3.05
   }
 ]
