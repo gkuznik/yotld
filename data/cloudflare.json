@@ -5482,9 +5482,1192 @@
   },
   {
     "date": "2026-11-02T02:00:00Z",
-    "linux_share": 7.303758,
-    "windows_share": 62.015191,
-    "macos_share": 28.649244,
-    "chromeos_share": 1.992812
+    "linux_share": 7.302123,
+    "windows_share": 62.010805,
+    "macos_share": 28.655934,
+    "chromeos_share": 1.992158
+  },
+  {
+    "date": "2026-11-02T03:00:00Z",
+    "linux_share": 7.915828,
+    "windows_share": 61.849252,
+    "macos_share": 28.330711,
+    "chromeos_share": 1.879435
+  },
+  {
+    "date": "2026-11-02T04:00:00Z",
+    "linux_share": 8.677555,
+    "windows_share": 61.717985,
+    "macos_share": 27.830392,
+    "chromeos_share": 1.74756
+  },
+  {
+    "date": "2026-11-02T05:00:00Z",
+    "linux_share": 10.081312,
+    "windows_share": 62.089067,
+    "macos_share": 26.307615,
+    "chromeos_share": 1.499526
+  },
+  {
+    "date": "2026-11-02T06:00:00Z",
+    "linux_share": 11.328716,
+    "windows_share": 62.193485,
+    "macos_share": 25.147856,
+    "chromeos_share": 1.309104
+  },
+  {
+    "date": "2026-11-02T07:00:00Z",
+    "linux_share": 12.454122,
+    "windows_share": 61.811837,
+    "macos_share": 24.600468,
+    "chromeos_share": 1.122374
+  },
+  {
+    "date": "2026-11-02T08:00:00Z",
+    "linux_share": 14.399209,
+    "windows_share": 61.047984,
+    "macos_share": 23.569579,
+    "chromeos_share": 0.968866
+  },
+  {
+    "date": "2026-11-02T09:00:00Z",
+    "linux_share": 15.177221,
+    "windows_share": 60.392108,
+    "macos_share": 23.502087,
+    "chromeos_share": 0.898415
+  },
+  {
+    "date": "2026-11-02T10:00:00Z",
+    "linux_share": 14.114483,
+    "windows_share": 58.283494,
+    "macos_share": 26.547767,
+    "chromeos_share": 0.989911
+  },
+  {
+    "date": "2026-11-02T11:00:00Z",
+    "linux_share": 13.279124,
+    "windows_share": 59.761752,
+    "macos_share": 25.474591,
+    "chromeos_share": 1.32591
+  },
+  {
+    "date": "2026-11-02T12:00:00Z",
+    "linux_share": 10.069211,
+    "windows_share": 62.029896,
+    "macos_share": 24.979139,
+    "chromeos_share": 2.688742
+  },
+  {
+    "date": "2026-11-02T13:00:00Z",
+    "linux_share": 6.990308,
+    "windows_share": 64.412022,
+    "macos_share": 23.784237,
+    "chromeos_share": 4.605406
+  },
+  {
+    "date": "2026-11-02T14:00:00Z",
+    "linux_share": 5.075611,
+    "windows_share": 64.017859,
+    "macos_share": 25.514458,
+    "chromeos_share": 5.252056
+  },
+  {
+    "date": "2026-11-02T15:00:00Z",
+    "linux_share": 4.70766,
+    "windows_share": 63.763058,
+    "macos_share": 26.291992,
+    "chromeos_share": 5.129229
+  },
+  {
+    "date": "2026-11-02T16:00:00Z",
+    "linux_share": 4.563874,
+    "windows_share": 63.533342,
+    "macos_share": 26.886509,
+    "chromeos_share": 4.928918
+  },
+  {
+    "date": "2026-11-02T17:00:00Z",
+    "linux_share": 4.428539,
+    "windows_share": 63.078141,
+    "macos_share": 27.628046,
+    "chromeos_share": 4.791609
+  },
+  {
+    "date": "2026-11-02T18:00:00Z",
+    "linux_share": 4.256075,
+    "windows_share": 62.637977,
+    "macos_share": 28.000756,
+    "chromeos_share": 5.037009
+  },
+  {
+    "date": "2026-11-02T19:00:00Z",
+    "linux_share": 4.214769,
+    "windows_share": 62.911181,
+    "macos_share": 27.918052,
+    "chromeos_share": 4.894598
+  },
+  {
+    "date": "2026-11-02T20:00:00Z",
+    "linux_share": 4.386157,
+    "windows_share": 64.073109,
+    "macos_share": 27.706461,
+    "chromeos_share": 3.777101
+  },
+  {
+    "date": "2026-11-02T21:00:00Z",
+    "linux_share": 4.658806,
+    "windows_share": 64.284757,
+    "macos_share": 28.092561,
+    "chromeos_share": 2.911292
+  },
+  {
+    "date": "2026-11-02T22:00:00Z",
+    "linux_share": 5.692885,
+    "windows_share": 63.203648,
+    "macos_share": 28.572788,
+    "chromeos_share": 2.473325
+  },
+  {
+    "date": "2026-11-02T23:00:00Z",
+    "linux_share": 6.10611,
+    "windows_share": 62.620691,
+    "macos_share": 28.925077,
+    "chromeos_share": 2.292011
+  },
+  {
+    "date": "2026-11-03T00:00:00Z",
+    "linux_share": 6.337852,
+    "windows_share": 62.478221,
+    "macos_share": 28.897715,
+    "chromeos_share": 2.228821
+  },
+  {
+    "date": "2026-11-03T01:00:00Z",
+    "linux_share": 6.679527,
+    "windows_share": 61.835968,
+    "macos_share": 29.153144,
+    "chromeos_share": 2.275761
+  },
+  {
+    "date": "2026-11-03T02:00:00Z",
+    "linux_share": 6.787314,
+    "windows_share": 61.764602,
+    "macos_share": 29.225995,
+    "chromeos_share": 2.171226
+  },
+  {
+    "date": "2026-11-03T03:00:00Z",
+    "linux_share": 7.196669,
+    "windows_share": 61.56463,
+    "macos_share": 29.15691,
+    "chromeos_share": 2.031071
+  },
+  {
+    "date": "2026-11-03T04:00:00Z",
+    "linux_share": 7.936466,
+    "windows_share": 62.030348,
+    "macos_share": 28.215205,
+    "chromeos_share": 1.780358
+  },
+  {
+    "date": "2026-11-03T05:00:00Z",
+    "linux_share": 9.210197,
+    "windows_share": 62.2225,
+    "macos_share": 27.002907,
+    "chromeos_share": 1.536477
+  },
+  {
+    "date": "2026-11-03T06:00:00Z",
+    "linux_share": 10.994228,
+    "windows_share": 62.179137,
+    "macos_share": 25.502769,
+    "chromeos_share": 1.304729
+  },
+  {
+    "date": "2026-11-03T07:00:00Z",
+    "linux_share": 12.649456,
+    "windows_share": 61.527151,
+    "macos_share": 24.737675,
+    "chromeos_share": 1.066317
+  },
+  {
+    "date": "2026-11-03T08:00:00Z",
+    "linux_share": 13.605802,
+    "windows_share": 61.128557,
+    "macos_share": 24.282749,
+    "chromeos_share": 0.965014
+  },
+  {
+    "date": "2026-11-03T09:00:00Z",
+    "linux_share": 15.32341,
+    "windows_share": 59.777058,
+    "macos_share": 23.937332,
+    "chromeos_share": 0.926941
+  },
+  {
+    "date": "2026-11-03T10:00:00Z",
+    "linux_share": 15.548679,
+    "windows_share": 58.671255,
+    "macos_share": 24.651378,
+    "chromeos_share": 1.050789
+  },
+  {
+    "date": "2026-11-03T11:00:00Z",
+    "linux_share": 13.799305,
+    "windows_share": 59.30123,
+    "macos_share": 25.416315,
+    "chromeos_share": 1.34272
+  },
+  {
+    "date": "2026-11-03T12:00:00Z",
+    "linux_share": 10.799172,
+    "windows_share": 60.995581,
+    "macos_share": 25.730869,
+    "chromeos_share": 2.279267
+  },
+  {
+    "date": "2026-11-03T13:00:00Z",
+    "linux_share": 7.798548,
+    "windows_share": 63.242414,
+    "macos_share": 24.911297,
+    "chromeos_share": 3.895209
+  },
+  {
+    "date": "2026-11-03T14:00:00Z",
+    "linux_share": 5.634296,
+    "windows_share": 63.771814,
+    "macos_share": 25.962107,
+    "chromeos_share": 4.527117
+  },
+  {
+    "date": "2026-11-03T15:00:00Z",
+    "linux_share": 4.793488,
+    "windows_share": 63.602617,
+    "macos_share": 27.089946,
+    "chromeos_share": 4.42814
+  },
+  {
+    "date": "2026-11-03T16:00:00Z",
+    "linux_share": 4.545831,
+    "windows_share": 63.303996,
+    "macos_share": 27.508639,
+    "chromeos_share": 4.57034
+  },
+  {
+    "date": "2026-11-03T17:00:00Z",
+    "linux_share": 4.548781,
+    "windows_share": 62.781832,
+    "macos_share": 28.154436,
+    "chromeos_share": 4.453504
+  },
+  {
+    "date": "2026-11-03T18:00:00Z",
+    "linux_share": 4.327061,
+    "windows_share": 62.808634,
+    "macos_share": 28.342409,
+    "chromeos_share": 4.46916
+  },
+  {
+    "date": "2026-11-03T19:00:00Z",
+    "linux_share": 4.185901,
+    "windows_share": 62.98976,
+    "macos_share": 28.46417,
+    "chromeos_share": 4.310317
+  },
+  {
+    "date": "2026-11-03T20:00:00Z",
+    "linux_share": 4.299072,
+    "windows_share": 63.563707,
+    "macos_share": 28.50343,
+    "chromeos_share": 3.586027
+  },
+  {
+    "date": "2026-11-03T21:00:00Z",
+    "linux_share": 4.482448,
+    "windows_share": 63.753872,
+    "macos_share": 28.826585,
+    "chromeos_share": 2.890205
+  },
+  {
+    "date": "2026-11-03T22:00:00Z",
+    "linux_share": 5.319517,
+    "windows_share": 62.966936,
+    "macos_share": 29.217588,
+    "chromeos_share": 2.447814
+  },
+  {
+    "date": "2026-11-03T23:00:00Z",
+    "linux_share": 6.22801,
+    "windows_share": 62.610055,
+    "macos_share": 28.810036,
+    "chromeos_share": 2.309253
+  },
+  {
+    "date": "2026-11-04T00:00:00Z",
+    "linux_share": 6.310394,
+    "windows_share": 62.564325,
+    "macos_share": 28.809714,
+    "chromeos_share": 2.278558
+  },
+  {
+    "date": "2026-11-04T01:00:00Z",
+    "linux_share": 6.399049,
+    "windows_share": 62.185978,
+    "macos_share": 29.143931,
+    "chromeos_share": 2.237022
+  },
+  {
+    "date": "2026-11-04T02:00:00Z",
+    "linux_share": 6.569797,
+    "windows_share": 61.675015,
+    "macos_share": 29.499484,
+    "chromeos_share": 2.224688
+  },
+  {
+    "date": "2026-11-04T03:00:00Z",
+    "linux_share": 6.633758,
+    "windows_share": 61.799658,
+    "macos_share": 29.536762,
+    "chromeos_share": 2.000693
+  },
+  {
+    "date": "2026-11-04T04:00:00Z",
+    "linux_share": 7.756483,
+    "windows_share": 61.328383,
+    "macos_share": 29.083894,
+    "chromeos_share": 1.808693
+  },
+  {
+    "date": "2026-11-04T05:00:00Z",
+    "linux_share": 9.138379,
+    "windows_share": 61.37845,
+    "macos_share": 27.933491,
+    "chromeos_share": 1.530615
+  },
+  {
+    "date": "2026-11-04T06:00:00Z",
+    "linux_share": 9.708868,
+    "windows_share": 62.518259,
+    "macos_share": 26.468102,
+    "chromeos_share": 1.291394
+  },
+  {
+    "date": "2026-11-04T07:00:00Z",
+    "linux_share": 11.04829,
+    "windows_share": 62.204776,
+    "macos_share": 25.629183,
+    "chromeos_share": 1.108312
+  },
+  {
+    "date": "2026-11-04T08:00:00Z",
+    "linux_share": 12.832741,
+    "windows_share": 61.771975,
+    "macos_share": 24.432394,
+    "chromeos_share": 0.952309
+  },
+  {
+    "date": "2026-11-04T09:00:00Z",
+    "linux_share": 13.809578,
+    "windows_share": 60.724965,
+    "macos_share": 24.4948,
+    "chromeos_share": 0.956779
+  },
+  {
+    "date": "2026-11-04T10:00:00Z",
+    "linux_share": 14.342181,
+    "windows_share": 59.518848,
+    "macos_share": 25.065807,
+    "chromeos_share": 1.044901
+  },
+  {
+    "date": "2026-11-04T11:00:00Z",
+    "linux_share": 12.0748,
+    "windows_share": 60.010284,
+    "macos_share": 26.513367,
+    "chromeos_share": 1.348996
+  },
+  {
+    "date": "2026-11-04T12:00:00Z",
+    "linux_share": 9.073992,
+    "windows_share": 61.814971,
+    "macos_share": 26.099987,
+    "chromeos_share": 2.938283
+  },
+  {
+    "date": "2026-11-04T13:00:00Z",
+    "linux_share": 6.583523,
+    "windows_share": 63.184173,
+    "macos_share": 24.914888,
+    "chromeos_share": 5.250054
+  },
+  {
+    "date": "2026-11-04T14:00:00Z",
+    "linux_share": 5.098208,
+    "windows_share": 62.885598,
+    "macos_share": 25.747407,
+    "chromeos_share": 6.218689
+  },
+  {
+    "date": "2026-11-04T15:00:00Z",
+    "linux_share": 4.463266,
+    "windows_share": 62.498748,
+    "macos_share": 26.757636,
+    "chromeos_share": 6.238848
+  },
+  {
+    "date": "2026-11-04T16:00:00Z",
+    "linux_share": 4.419807,
+    "windows_share": 62.20937,
+    "macos_share": 27.326489,
+    "chromeos_share": 6.00829
+  },
+  {
+    "date": "2026-11-04T17:00:00Z",
+    "linux_share": 4.282615,
+    "windows_share": 62.006206,
+    "macos_share": 27.91319,
+    "chromeos_share": 5.76494
+  },
+  {
+    "date": "2026-11-04T18:00:00Z",
+    "linux_share": 4.03063,
+    "windows_share": 61.761467,
+    "macos_share": 28.375425,
+    "chromeos_share": 5.802476
+  },
+  {
+    "date": "2026-11-04T19:00:00Z",
+    "linux_share": 4.100159,
+    "windows_share": 62.422255,
+    "macos_share": 27.998884,
+    "chromeos_share": 5.451249
+  },
+  {
+    "date": "2026-11-04T20:00:00Z",
+    "linux_share": 4.174255,
+    "windows_share": 63.677642,
+    "macos_share": 27.825957,
+    "chromeos_share": 4.296838
+  },
+  {
+    "date": "2026-11-04T21:00:00Z",
+    "linux_share": 4.379603,
+    "windows_share": 64.28954,
+    "macos_share": 28.203564,
+    "chromeos_share": 3.103226
+  },
+  {
+    "date": "2026-11-04T22:00:00Z",
+    "linux_share": 4.986747,
+    "windows_share": 63.615228,
+    "macos_share": 28.719209,
+    "chromeos_share": 2.646758
+  },
+  {
+    "date": "2026-11-04T23:00:00Z",
+    "linux_share": 5.628443,
+    "windows_share": 63.146971,
+    "macos_share": 28.735741,
+    "chromeos_share": 2.399629
+  },
+  {
+    "date": "2026-11-05T00:00:00Z",
+    "linux_share": 6.177539,
+    "windows_share": 62.835193,
+    "macos_share": 28.507696,
+    "chromeos_share": 2.391181
+  },
+  {
+    "date": "2026-11-05T01:00:00Z",
+    "linux_share": 6.339027,
+    "windows_share": 62.643168,
+    "macos_share": 28.577453,
+    "chromeos_share": 2.360152
+  },
+  {
+    "date": "2026-11-05T02:00:00Z",
+    "linux_share": 6.652415,
+    "windows_share": 62.385479,
+    "macos_share": 28.621577,
+    "chromeos_share": 2.271816
+  },
+  {
+    "date": "2026-11-05T03:00:00Z",
+    "linux_share": 7.033353,
+    "windows_share": 62.025319,
+    "macos_share": 28.712291,
+    "chromeos_share": 2.169697
+  },
+  {
+    "date": "2026-11-05T04:00:00Z",
+    "linux_share": 7.768961,
+    "windows_share": 61.833845,
+    "macos_share": 28.445536,
+    "chromeos_share": 1.901975
+  },
+  {
+    "date": "2026-11-05T05:00:00Z",
+    "linux_share": 8.947934,
+    "windows_share": 62.043041,
+    "macos_share": 27.363579,
+    "chromeos_share": 1.609088
+  },
+  {
+    "date": "2026-11-05T06:00:00Z",
+    "linux_share": 10.766606,
+    "windows_share": 61.765881,
+    "macos_share": 26.130962,
+    "chromeos_share": 1.313439
+  },
+  {
+    "date": "2026-11-05T07:00:00Z",
+    "linux_share": 11.841091,
+    "windows_share": 61.944519,
+    "macos_share": 25.093833,
+    "chromeos_share": 1.101536
+  },
+  {
+    "date": "2026-11-05T08:00:00Z",
+    "linux_share": 13.343976,
+    "windows_share": 61.561279,
+    "macos_share": 24.109237,
+    "chromeos_share": 0.967554
+  },
+  {
+    "date": "2026-11-05T09:00:00Z",
+    "linux_share": 14.539544,
+    "windows_share": 60.765526,
+    "macos_share": 23.731215,
+    "chromeos_share": 0.934357
+  },
+  {
+    "date": "2026-11-05T10:00:00Z",
+    "linux_share": 14.967296,
+    "windows_share": 59.210414,
+    "macos_share": 24.697298,
+    "chromeos_share": 1.081016
+  },
+  {
+    "date": "2026-11-05T11:00:00Z",
+    "linux_share": 13.139636,
+    "windows_share": 59.501888,
+    "macos_share": 25.869423,
+    "chromeos_share": 1.396205
+  },
+  {
+    "date": "2026-11-05T12:00:00Z",
+    "linux_share": 9.75551,
+    "windows_share": 61.108717,
+    "macos_share": 26.142878,
+    "chromeos_share": 2.856786
+  },
+  {
+    "date": "2026-11-05T13:00:00Z",
+    "linux_share": 7.110485,
+    "windows_share": 62.770353,
+    "macos_share": 24.825261,
+    "chromeos_share": 5.178096
+  },
+  {
+    "date": "2026-11-05T14:00:00Z",
+    "linux_share": 5.187675,
+    "windows_share": 62.81866,
+    "macos_share": 25.713298,
+    "chromeos_share": 6.203245
+  },
+  {
+    "date": "2026-11-05T15:00:00Z",
+    "linux_share": 4.628487,
+    "windows_share": 62.437223,
+    "macos_share": 26.815009,
+    "chromeos_share": 6.057011
+  },
+  {
+    "date": "2026-11-05T16:00:00Z",
+    "linux_share": 4.512404,
+    "windows_share": 61.943668,
+    "macos_share": 27.514733,
+    "chromeos_share": 5.975527
+  },
+  {
+    "date": "2026-11-05T17:00:00Z",
+    "linux_share": 4.473368,
+    "windows_share": 61.705351,
+    "macos_share": 28.169459,
+    "chromeos_share": 5.601479
+  },
+  {
+    "date": "2026-11-05T18:00:00Z",
+    "linux_share": 4.679133,
+    "windows_share": 61.148104,
+    "macos_share": 28.476893,
+    "chromeos_share": 5.650101
+  },
+  {
+    "date": "2026-11-05T19:00:00Z",
+    "linux_share": 4.542356,
+    "windows_share": 61.181774,
+    "macos_share": 28.83203,
+    "chromeos_share": 5.40426
+  },
+  {
+    "date": "2026-11-05T20:00:00Z",
+    "linux_share": 4.759097,
+    "windows_share": 62.293988,
+    "macos_share": 28.583949,
+    "chromeos_share": 4.324376
+  },
+  {
+    "date": "2026-11-05T21:00:00Z",
+    "linux_share": 4.936007,
+    "windows_share": 62.743927,
+    "macos_share": 29.086305,
+    "chromeos_share": 3.197149
+  },
+  {
+    "date": "2026-11-05T22:00:00Z",
+    "linux_share": 5.639148,
+    "windows_share": 62.560568,
+    "macos_share": 29.046884,
+    "chromeos_share": 2.714998
+  },
+  {
+    "date": "2026-11-05T23:00:00Z",
+    "linux_share": 5.850675,
+    "windows_share": 62.306221,
+    "macos_share": 29.301471,
+    "chromeos_share": 2.505294
+  },
+  {
+    "date": "2026-11-06T00:00:00Z",
+    "linux_share": 6.367463,
+    "windows_share": 62.526349,
+    "macos_share": 28.635808,
+    "chromeos_share": 2.440516
+  },
+  {
+    "date": "2026-11-06T01:00:00Z",
+    "linux_share": 6.772328,
+    "windows_share": 62.084899,
+    "macos_share": 28.686154,
+    "chromeos_share": 2.43113
+  },
+  {
+    "date": "2026-11-06T02:00:00Z",
+    "linux_share": 6.88067,
+    "windows_share": 61.755252,
+    "macos_share": 28.946358,
+    "chromeos_share": 2.394217
+  },
+  {
+    "date": "2026-11-06T03:00:00Z",
+    "linux_share": 7.358184,
+    "windows_share": 61.796901,
+    "macos_share": 28.635031,
+    "chromeos_share": 2.188543
+  },
+  {
+    "date": "2026-11-06T04:00:00Z",
+    "linux_share": 8.11615,
+    "windows_share": 61.677163,
+    "macos_share": 28.222875,
+    "chromeos_share": 1.965848
+  },
+  {
+    "date": "2026-11-06T05:00:00Z",
+    "linux_share": 9.450643,
+    "windows_share": 61.946416,
+    "macos_share": 26.950379,
+    "chromeos_share": 1.635141
+  },
+  {
+    "date": "2026-11-06T06:00:00Z",
+    "linux_share": 10.36444,
+    "windows_share": 62.18635,
+    "macos_share": 26.070255,
+    "chromeos_share": 1.364394
+  },
+  {
+    "date": "2026-11-06T07:00:00Z",
+    "linux_share": 11.750508,
+    "windows_share": 61.726338,
+    "macos_share": 25.32287,
+    "chromeos_share": 1.188627
+  },
+  {
+    "date": "2026-11-06T08:00:00Z",
+    "linux_share": 13.007365,
+    "windows_share": 61.427502,
+    "macos_share": 24.550696,
+    "chromeos_share": 1.004637
+  },
+  {
+    "date": "2026-11-06T09:00:00Z",
+    "linux_share": 13.510662,
+    "windows_share": 60.083714,
+    "macos_share": 25.393062,
+    "chromeos_share": 1.002575
+  },
+  {
+    "date": "2026-11-06T10:00:00Z",
+    "linux_share": 14.647609,
+    "windows_share": 58.979247,
+    "macos_share": 25.263457,
+    "chromeos_share": 1.087964
+  },
+  {
+    "date": "2026-11-06T11:00:00Z",
+    "linux_share": 13.034865,
+    "windows_share": 59.641524,
+    "macos_share": 25.906214,
+    "chromeos_share": 1.380842
+  },
+  {
+    "date": "2026-11-06T12:00:00Z",
+    "linux_share": 10.325908,
+    "windows_share": 60.620334,
+    "macos_share": 26.047388,
+    "chromeos_share": 2.943953
+  },
+  {
+    "date": "2026-11-06T13:00:00Z",
+    "linux_share": 7.248434,
+    "windows_share": 62.254104,
+    "macos_share": 24.89875,
+    "chromeos_share": 5.554323
+  },
+  {
+    "date": "2026-11-06T14:00:00Z",
+    "linux_share": 5.392575,
+    "windows_share": 62.600761,
+    "macos_share": 25.51189,
+    "chromeos_share": 6.454702
+  },
+  {
+    "date": "2026-11-06T15:00:00Z",
+    "linux_share": 4.949283,
+    "windows_share": 62.23197,
+    "macos_share": 26.439839,
+    "chromeos_share": 6.343113
+  },
+  {
+    "date": "2026-11-06T16:00:00Z",
+    "linux_share": 4.795937,
+    "windows_share": 61.771276,
+    "macos_share": 27.063921,
+    "chromeos_share": 6.33625
+  },
+  {
+    "date": "2026-11-06T17:00:00Z",
+    "linux_share": 4.780012,
+    "windows_share": 61.753864,
+    "macos_share": 27.498083,
+    "chromeos_share": 5.940383
+  },
+  {
+    "date": "2026-11-06T18:00:00Z",
+    "linux_share": 4.489687,
+    "windows_share": 62.263814,
+    "macos_share": 27.291181,
+    "chromeos_share": 5.931262
+  },
+  {
+    "date": "2026-11-06T19:00:00Z",
+    "linux_share": 4.448956,
+    "windows_share": 62.680583,
+    "macos_share": 27.218637,
+    "chromeos_share": 5.626621
+  },
+  {
+    "date": "2026-11-06T20:00:00Z",
+    "linux_share": 4.504336,
+    "windows_share": 64.391092,
+    "macos_share": 26.859417,
+    "chromeos_share": 4.221888
+  },
+  {
+    "date": "2026-11-06T21:00:00Z",
+    "linux_share": 5.086225,
+    "windows_share": 65.014939,
+    "macos_share": 26.976908,
+    "chromeos_share": 2.899099
+  },
+  {
+    "date": "2026-11-06T22:00:00Z",
+    "linux_share": 5.582532,
+    "windows_share": 64.985865,
+    "macos_share": 27.039536,
+    "chromeos_share": 2.368769
+  },
+  {
+    "date": "2026-11-06T23:00:00Z",
+    "linux_share": 5.626997,
+    "windows_share": 65.547152,
+    "macos_share": 26.739266,
+    "chromeos_share": 2.067582
+  },
+  {
+    "date": "2026-11-07T00:00:00Z",
+    "linux_share": 5.915447,
+    "windows_share": 66.146869,
+    "macos_share": 25.955511,
+    "chromeos_share": 1.96267
+  },
+  {
+    "date": "2026-11-07T01:00:00Z",
+    "linux_share": 6.464957,
+    "windows_share": 65.664037,
+    "macos_share": 25.909587,
+    "chromeos_share": 1.945334
+  },
+  {
+    "date": "2026-11-07T02:00:00Z",
+    "linux_share": 6.610468,
+    "windows_share": 65.688889,
+    "macos_share": 25.728559,
+    "chromeos_share": 1.959118
+  },
+  {
+    "date": "2026-11-07T03:00:00Z",
+    "linux_share": 6.71246,
+    "windows_share": 65.683407,
+    "macos_share": 25.746124,
+    "chromeos_share": 1.843075
+  },
+  {
+    "date": "2026-11-07T04:00:00Z",
+    "linux_share": 8.188396,
+    "windows_share": 64.949792,
+    "macos_share": 25.182204,
+    "chromeos_share": 1.66849
+  },
+  {
+    "date": "2026-11-07T05:00:00Z",
+    "linux_share": 8.942082,
+    "windows_share": 65.136291,
+    "macos_share": 24.38336,
+    "chromeos_share": 1.528384
+  },
+  {
+    "date": "2026-11-07T06:00:00Z",
+    "linux_share": 10.136069,
+    "windows_share": 65.025476,
+    "macos_share": 23.512733,
+    "chromeos_share": 1.317382
+  },
+  {
+    "date": "2026-11-07T07:00:00Z",
+    "linux_share": 11.330123,
+    "windows_share": 64.316696,
+    "macos_share": 23.153183,
+    "chromeos_share": 1.191589
+  },
+  {
+    "date": "2026-11-07T08:00:00Z",
+    "linux_share": 12.424747,
+    "windows_share": 63.797679,
+    "macos_share": 22.742591,
+    "chromeos_share": 1.029652
+  },
+  {
+    "date": "2026-11-07T09:00:00Z",
+    "linux_share": 13.647013,
+    "windows_share": 62.764417,
+    "macos_share": 22.604169,
+    "chromeos_share": 0.97929
+  },
+  {
+    "date": "2026-11-07T10:00:00Z",
+    "linux_share": 14.232693,
+    "windows_share": 61.399854,
+    "macos_share": 23.334107,
+    "chromeos_share": 1.022404
+  },
+  {
+    "date": "2026-11-07T11:00:00Z",
+    "linux_share": 13.930806,
+    "windows_share": 59.457502,
+    "macos_share": 25.341677,
+    "chromeos_share": 1.249922
+  },
+  {
+    "date": "2026-11-07T12:00:00Z",
+    "linux_share": 12.097339,
+    "windows_share": 58.699455,
+    "macos_share": 27.658763,
+    "chromeos_share": 1.511801
+  },
+  {
+    "date": "2026-11-07T13:00:00Z",
+    "linux_share": 9.7172,
+    "windows_share": 60.033221,
+    "macos_share": 28.396028,
+    "chromeos_share": 1.804978
+  },
+  {
+    "date": "2026-11-07T14:00:00Z",
+    "linux_share": 8.105145,
+    "windows_share": 56.889924,
+    "macos_share": 33.150145,
+    "chromeos_share": 1.822712
+  },
+  {
+    "date": "2026-11-07T15:00:00Z",
+    "linux_share": 7.486006,
+    "windows_share": 61.778557,
+    "macos_share": 28.779894,
+    "chromeos_share": 1.922801
+  },
+  {
+    "date": "2026-11-07T16:00:00Z",
+    "linux_share": 6.843866,
+    "windows_share": 62.341528,
+    "macos_share": 28.885009,
+    "chromeos_share": 1.90404
+  },
+  {
+    "date": "2026-11-07T17:00:00Z",
+    "linux_share": 6.576959,
+    "windows_share": 63.181242,
+    "macos_share": 28.292033,
+    "chromeos_share": 1.919539
+  },
+  {
+    "date": "2026-11-07T18:00:00Z",
+    "linux_share": 6.598528,
+    "windows_share": 63.436754,
+    "macos_share": 28.033389,
+    "chromeos_share": 1.908684
+  },
+  {
+    "date": "2026-11-07T19:00:00Z",
+    "linux_share": 6.504104,
+    "windows_share": 63.550708,
+    "macos_share": 27.99965,
+    "chromeos_share": 1.922502
+  },
+  {
+    "date": "2026-11-07T20:00:00Z",
+    "linux_share": 6.628532,
+    "windows_share": 63.62636,
+    "macos_share": 27.83422,
+    "chromeos_share": 1.890966
+  },
+  {
+    "date": "2026-11-07T21:00:00Z",
+    "linux_share": 6.650212,
+    "windows_share": 63.148152,
+    "macos_share": 28.28381,
+    "chromeos_share": 1.89884
+  },
+  {
+    "date": "2026-11-07T22:00:00Z",
+    "linux_share": 6.772676,
+    "windows_share": 63.334725,
+    "macos_share": 28.016319,
+    "chromeos_share": 1.857875
+  },
+  {
+    "date": "2026-11-07T23:00:00Z",
+    "linux_share": 6.942068,
+    "windows_share": 63.479032,
+    "macos_share": 27.696963,
+    "chromeos_share": 1.862666
+  },
+  {
+    "date": "2026-11-08T00:00:00Z",
+    "linux_share": 6.658746,
+    "windows_share": 63.332391,
+    "macos_share": 28.148663,
+    "chromeos_share": 1.843199
+  },
+  {
+    "date": "2026-11-08T01:00:00Z",
+    "linux_share": 6.667569,
+    "windows_share": 64.071897,
+    "macos_share": 27.372421,
+    "chromeos_share": 1.874964
+  },
+  {
+    "date": "2026-11-08T02:00:00Z",
+    "linux_share": 6.660164,
+    "windows_share": 64.248479,
+    "macos_share": 27.195182,
+    "chromeos_share": 1.878192
+  },
+  {
+    "date": "2026-11-08T03:00:00Z",
+    "linux_share": 7.224514,
+    "windows_share": 64.289998,
+    "macos_share": 26.677087,
+    "chromeos_share": 1.796284
+  },
+  {
+    "date": "2026-11-08T04:00:00Z",
+    "linux_share": 8.216746,
+    "windows_share": 63.876257,
+    "macos_share": 26.2394,
+    "chromeos_share": 1.653909
+  },
+  {
+    "date": "2026-11-08T05:00:00Z",
+    "linux_share": 9.195781,
+    "windows_share": 64.554563,
+    "macos_share": 24.682096,
+    "chromeos_share": 1.556921
+  },
+  {
+    "date": "2026-11-08T06:00:00Z",
+    "linux_share": 9.900038,
+    "windows_share": 64.744693,
+    "macos_share": 24.001308,
+    "chromeos_share": 1.349411
+  },
+  {
+    "date": "2026-11-08T07:00:00Z",
+    "linux_share": 10.900077,
+    "windows_share": 64.596879,
+    "macos_share": 23.317805,
+    "chromeos_share": 1.175923
+  },
+  {
+    "date": "2026-11-08T08:00:00Z",
+    "linux_share": 12.022974,
+    "windows_share": 63.80617,
+    "macos_share": 23.114502,
+    "chromeos_share": 1.046009
+  },
+  {
+    "date": "2026-11-08T09:00:00Z",
+    "linux_share": 12.951672,
+    "windows_share": 62.565878,
+    "macos_share": 23.399986,
+    "chromeos_share": 1.072991
+  },
+  {
+    "date": "2026-11-08T10:00:00Z",
+    "linux_share": 13.938626,
+    "windows_share": 61.019957,
+    "macos_share": 23.972531,
+    "chromeos_share": 1.050276
+  },
+  {
+    "date": "2026-11-08T11:00:00Z",
+    "linux_share": 13.355673,
+    "windows_share": 60.004977,
+    "macos_share": 25.43453,
+    "chromeos_share": 1.175488
+  },
+  {
+    "date": "2026-11-08T12:00:00Z",
+    "linux_share": 11.8632,
+    "windows_share": 58.769924,
+    "macos_share": 27.799818,
+    "chromeos_share": 1.50716
+  },
+  {
+    "date": "2026-11-08T13:00:00Z",
+    "linux_share": 10.01104,
+    "windows_share": 58.999352,
+    "macos_share": 29.17531,
+    "chromeos_share": 1.752095
+  },
+  {
+    "date": "2026-11-08T14:00:00Z",
+    "linux_share": 8.821669,
+    "windows_share": 59.495786,
+    "macos_share": 29.710603,
+    "chromeos_share": 1.906753
+  },
+  {
+    "date": "2026-11-08T15:00:00Z",
+    "linux_share": 7.542348,
+    "windows_share": 60.072407,
+    "macos_share": 30.329312,
+    "chromeos_share": 1.994614
+  },
+  {
+    "date": "2026-11-08T16:00:00Z",
+    "linux_share": 6.925523,
+    "windows_share": 61.225901,
+    "macos_share": 29.79552,
+    "chromeos_share": 1.997966
+  },
+  {
+    "date": "2026-11-08T17:00:00Z",
+    "linux_share": 6.59704,
+    "windows_share": 61.126483,
+    "macos_share": 30.218537,
+    "chromeos_share": 2.009447
+  },
+  {
+    "date": "2026-11-08T18:00:00Z",
+    "linux_share": 6.594056,
+    "windows_share": 61.757568,
+    "macos_share": 29.604797,
+    "chromeos_share": 1.997742
+  },
+  {
+    "date": "2026-11-08T19:00:00Z",
+    "linux_share": 6.319423,
+    "windows_share": 62.118344,
+    "macos_share": 29.470881,
+    "chromeos_share": 2.052083
+  },
+  {
+    "date": "2026-11-08T20:00:00Z",
+    "linux_share": 6.901568,
+    "windows_share": 61.920998,
+    "macos_share": 29.045356,
+    "chromeos_share": 2.090982
+  },
+  {
+    "date": "2026-11-08T21:00:00Z",
+    "linux_share": 7.178818,
+    "windows_share": 61.724762,
+    "macos_share": 28.954427,
+    "chromeos_share": 2.106442
+  },
+  {
+    "date": "2026-11-08T22:00:00Z",
+    "linux_share": 6.942034,
+    "windows_share": 61.866132,
+    "macos_share": 29.016713,
+    "chromeos_share": 2.135023
+  },
+  {
+    "date": "2026-11-08T23:00:00Z",
+    "linux_share": 6.695676,
+    "windows_share": 62.189083,
+    "macos_share": 28.850934,
+    "chromeos_share": 2.222555
+  },
+  {
+    "date": "2026-11-09T00:00:00Z",
+    "linux_share": 6.196659,
+    "windows_share": 62.783877,
+    "macos_share": 28.708508,
+    "chromeos_share": 2.275302
+  },
+  {
+    "date": "2026-11-09T01:00:00Z",
+    "linux_share": 6.147889,
+    "windows_share": 62.779683,
+    "macos_share": 28.790595,
+    "chromeos_share": 2.246508
+  },
+  {
+    "date": "2026-11-09T02:00:00Z",
+    "linux_share": 6.2591,
+    "windows_share": 62.390741,
+    "macos_share": 29.115049,
+    "chromeos_share": 2.197466
+  },
+  {
+    "date": "2026-11-09T03:00:00Z",
+    "linux_share": 6.560956,
+    "windows_share": 62.390606,
+    "macos_share": 28.891323,
+    "chromeos_share": 2.122621
   }
 ]
